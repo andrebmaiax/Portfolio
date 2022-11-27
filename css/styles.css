@@ -32,15 +32,16 @@ main{
 }
 .card{
    display: grid;
-   width: 40%;
+   width: 60%;
    grid-template-columns: 1fr 2fr ;
    height: 20rem;
    margin: 0 auto;
-   margin-top: 10%;
+   margin-top: 5%;
+   height: 35rem;
 }
 .Iam{
    border-radius: 50%;
-   width: 45%;
+   width: 55%;
    margin: 0 auto;
    grid-column: 1;
    grid-row: 1/2;
@@ -66,19 +67,20 @@ main{
    grid-row: 0;
    align-self: end;
    width: 100%;
+   padding: 10px;
 }
 
 .AboutI h3{
    margin: 0 auto;
    margin-top: 20px;
    border-bottom: 1px solid rgb(74, 74, 114);
-   font-size: 20px;
+   font-size: 30px;
    font-weight:800
 }
 .AboutI p{
    margin: 0 auto;
    margin-top: 20px;
-   font-size: 20px;
+   font-size: 25px;
 }
 
 /*Texts*/
