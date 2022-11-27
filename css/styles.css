@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+ }
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 5rem;
+    flex-wrap: wrap;
+ }
+ .menu{
+    display: flex;
+ }
+ .menu li{
+    margin-left: 10px;
+ }
+ .menu a{
+    padding: 10px;
+    font-size: 20px;
+ }
+/*Main*/
+
+/*Card*/
+main{
+   background-color: burlywood;
+}
+.card{
+   display: grid;
+   width: 40%;
+   grid-template-columns: 1fr 2fr ;
+   height: 20rem;
+   margin: 0 auto;
+   margin-top: 10%;
+}
+.Iam{
+   border-radius: 50%;
+   width: 45%;
+   margin: 0 auto;
+   grid-column: 1;
+   grid-row: 1/2;
+   align-self:end;
+}
+.AboutI{
+   display: grid;
+   grid-row: 1;
+   background-color: aqua;
+}
+.social{
+   align-self: center;
+}
+.social img{
+   margin: 0 auto;
+   margin-left: 25px;
+}
+.socials{
+   display: flex;
+   background:white;
+   color:white;
+   grid-column: 1;
+   grid-row: 0;
+   align-self: end;
+   width: 100%;
+}
+
+.AboutI h3{
+   margin: 0 auto;
+   margin-top: 20px;
+   border-bottom: 1px solid rgb(74, 74, 114);
+   font-size: 20px;
+   font-weight:800
+}
+.AboutI p{
+   margin: 0 auto;
+   margin-top: 20px;
+   font-size: 20px;
+}
+
+/*Texts*/
+.texts{
+   background-color: white;
+}
+.texts h2{
+   font-size: 80px;
+   margin: 0 auto;
+   margin-top: 30px;
+   margin-left: 10%;
+}
+.texts p{
+   margin-left: 10%;
+   font-size: 25px;
+   margin-bottom: 30px;
+}
+.texts button{
+   width: 25%;
+   border-radius: 5px;
+   background-color: rgb(86, 68, 248);
+   margin-left: 40px;
+   padding: 10px;
+   margin-bottom: 30px;
+}
+.buttons{
+   
+}
