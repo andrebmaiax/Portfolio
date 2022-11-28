@@ -6,38 +6,59 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
  }
+ /*Header*/
  header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 20px;
     height: 5rem;
     flex-wrap: wrap;
+    justify-content:space-between
+ }
+ .Initial{
+   display: flex;
+   align-items: center;
+   margin-left:2%;
  }
  .menu{
     display: flex;
+    margin-right:3%;
+    flex-wrap: wrap;
  }
- .menu li{
-    margin-left: 10px;
- }
+
+.square{
+   width: 20px;
+   height: 20px;
+   background: blue;
+}
  .menu a{
     padding: 10px;
     font-size: 20px;
  }
+ .menu a:hover{
+   color: #0050ff;
+ }
+ header h2{
+   margin-left: 20px;
+ }
+
 /*Main*/
 
-/*Card*/
-main{
-   background-color: burlywood;
-}
+/*AboutI/Card*/
 .card{
    display: grid;
    width: 60%;
    grid-template-columns: 1fr 2fr ;
    height: 20rem;
    margin: 0 auto;
-   margin-top: 5%;
-   height: 35rem;
+   height: 39rem;
+}
+.AboutI{
+   display: grid;
+   grid-row: 1;
+   background-color: #f4ece6;
+   width: 100%;
+   margin-top: 20%;
 }
 .Iam{
    border-radius: 50%;
@@ -47,17 +68,12 @@ main{
    grid-row: 1/2;
    align-self:end;
 }
-.AboutI{
-   display: grid;
-   grid-row: 1;
-   background-color: aqua;
-}
 .social{
    align-self: center;
 }
 .social img{
    margin: 0 auto;
-   margin-left: 25px;
+   margin-left: 55px;
 }
 .socials{
    display: flex;
@@ -66,10 +82,8 @@ main{
    grid-column: 1;
    grid-row: 0;
    align-self: end;
-   width: 100%;
    padding: 10px;
 }
-
 .AboutI h3{
    margin: 0 auto;
    margin-top: 20px;
@@ -83,9 +97,11 @@ main{
    font-size: 25px;
 }
 
-/*Texts*/
+/*Card/Texts*/
 .texts{
    background-color: white;
+   margin-top: 18%;
+   width: 500px; 
 }
 .texts h2{
    font-size: 80px;
@@ -99,13 +115,34 @@ main{
    margin-bottom: 30px;
 }
 .texts button{
-   width: 25%;
-   border-radius: 5px;
-   background-color: rgb(86, 68, 248);
-   margin-left: 40px;
+   width: 30%;
+   border-radius: 20px;
    padding: 10px;
    margin-bottom: 30px;
+   margin-right: 20px;
 }
 .buttons{
-   
+   margin-left: 10%;
+   width: 100%;
 }
+.resume{
+   background-color: #0050ff;
+   color: white;
+}
+.resume:hover{
+   background-color:rgba(0, 67, 253, 0.4)
+}
+.projects:hover{
+   background-color:rgba(0, 67, 253, 0.4)
+}
+/*BackGround*/
+.back{
+   height: 50rem;
+   background-color: #e3d7cc;
+   margin-top: -39rem;
+   width: 35%;
+   z-index: -1;
+}
+
+
+
