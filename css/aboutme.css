@@ -4,6 +4,14 @@
 
 /*Main*/
 
+/*BackGround*/
+.back{
+   height: 100vh;
+   background-color: #e3d7cc;
+   margin-top: -39rem;
+   width: 35%;
+   z-index: -1;
+}
 /*AboutI/Card*/
 .card{
    display: grid;
@@ -96,13 +104,5 @@
 }
 .projects:hover{
    background-color:rgba(0, 67, 253, 0.4)
-}
-/*BackGround*/
-.back{
-   height: 50rem;
-   background-color: #e3d7cc;
-   margin-top: -39rem;
-   width: 35%;
-   z-index: -1;
 }
 
