@@ -1,0 +1,31 @@
+main{
+    background-color: bisque;
+    width: 100%;
+    height: 150vh;
+}
+.square3{
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    display: flex;
+    margin-top: 5%;
+   
+}
+.containersquare{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.containersquare h3{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.projetoP{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+
