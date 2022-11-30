@@ -1,12 +1,13 @@
 main{
     background-color: bisque;
     width: 100%;
-    height: 150vh;
+    height: 200vh;
+    min-width: 650px;
 }
 .square3{
     width: 25px;
     height: 25px;
-    background-color: blue;
+    background-color: #0050ff;
     display: flex;
     margin-top: 5%;
    
@@ -27,5 +28,34 @@ main{
     width: 35%;
     margin: 0 auto;
     text-align: center;
+    
 }
+.projects{
+    display: flex;
+    width: 40%;
+    background-color: white;
+    margin: 0 auto;
+    height: 43vh;
+    margin-top: 5%;
+    min-width: 500px;
+}
+.textsproj{
+    min-width: 300px
+}
+.textsproj h3{
+    color: #0050ff;
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-left: 10px #0050ff solid;
+    margin-top: 15%;
+}
+.textsproj p{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.screenproj{
+    display: flex;
 
+}

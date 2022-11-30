@@ -23,13 +23,11 @@
  .menu{
     display: flex;
     margin-right:3%;
-    flex-wrap: wrap;
  }
-
 .square{
    width: 20px;
    height: 20px;
-   background: blue;
+   background: #0050ff;
 }
  .menu a{
     padding: 10px;
@@ -41,7 +39,6 @@
  header h2{
    margin-left: 20px;
  }
-
  /*Footer for all pages*/
  footer{
     display: flex;
@@ -49,7 +46,6 @@
     padding: 2%;
     font-size: 14px;
     align-items: center;
-    flex-wrap: wrap;
  }
 .footinformations p{
     margin-top: 10px; 
