@@ -87,9 +87,9 @@ main{
 }
 textarea{
     margin-top: 10px;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid black;
+   
+  
+   
     width: 100%;
     box-sizing: border-box;
 }

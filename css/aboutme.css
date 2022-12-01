@@ -5,12 +5,16 @@
 /*Main*/
 
 /*BackGround*/
+.back.close{
+   background-color: #3273ff;
+}
 .back{
    height: 100vh;
    background-color: #e3d7cc;
    margin-top: -39rem;
    width: 35%;
    z-index: -1;
+   transition: 1s;
 }
 /*AboutI/Card*/
 .card{
