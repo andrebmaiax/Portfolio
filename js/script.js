@@ -1,7 +1,8 @@
 const body=document.querySelector("body"),
-      logo=body.querySelector(".logo"),
-      back=body.querySelector(".back")
+      square=body.querySelector(".square")
+      
  
-      logo.addEventListener("click",()=>{
-        back.classList.toggle("close");
+      square.addEventListener("click",()=>{
+        body.classList.toggle("close")
+
       })

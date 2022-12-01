@@ -3,11 +3,36 @@
 
 
 /*Main*/
+/*Script class (body.close)*/
+body.close main .AboutI{
+   background-color: #efeff0;
+}
+body.close main .back{
+   background-color: #94b6ff;
+}
+body.close header .square{
+   background-color: #d9dce2;
+}
+body.close main .resume{
+   background-color: #d9dce2;
+   color: rgb(15, 15, 15);
+}
+body.close main .projects{
+   background-color: #94b6ff;
+   color: white;
+}
+body.close main .resume:hover{
+   background-color:rgba(3, 3, 3, 0.3)
+}
+body.close main .projects:hover{
+   background-color:rgba(57, 107, 245, 0.8)
+}
+body.close header .menu a:hover{
+   color: #b8b8b8;
+}
+
 
 /*BackGround*/
-.back.close{
-   background-color: #3273ff;
-}
 .back{
    height: 100vh;
    background-color: #e3d7cc;
@@ -31,6 +56,7 @@
    background-color: #f4ece6;
    width: 100%;
    margin-top: 20%;
+   transition: 1s;
 }
 .Iam{
    border-radius: 50%;
@@ -99,9 +125,13 @@
    margin-left: 10%;
    width: 100%;
 }
+.projects{
+   transition: 0.5s;
+}
 .resume{
    background-color: #0050ff;
    color: white;
+   transition: 0.5s;
 }
 .resume:hover{
    background-color:rgba(0, 67, 253, 0.4)

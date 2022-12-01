@@ -29,6 +29,8 @@
    width: 20px;
    height: 20px;
    background: #0050ff;
+   transition: 1s;
+   cursor: pointer;
 }
  .menu a{
     padding: 10px;
