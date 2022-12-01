@@ -8,19 +8,20 @@
         <link rel="stylesheet" href="../css/aboutme.css">
         <link rel="stylesheet" href="../css/reset.css">
         <script defer src="../js/script.js"></script>
+        
     </head>
     <body>
-        <header>
+        <header id="header">
             <div class="Initial">
                 <div class="square">
                 </div>
                 <h2 class="logo"  href="#">André /Sistema de Informação</h2>
             </div>
             <ul class="menu">
-                <li><a href="./aboutme.html">Sobre Mim</a></li>
-                <li><a href="./curriculo.html">Currículo</a></li>
-                <li><a href="./projetos.html">Projetos</a></li>
-                <li><a href="./contato.html">Contato</a></li>
+                <li><a onclick="redirecionarA()">Sobre Mim</a></li>
+                <li><a onclick="redirecionarC()">Currículo</a></li>
+                <li><a onclick="redirecionarP()">Projetos</a></li>
+                <li><a onclick="redirecionarCA()">Contato</a></li>
             </ul>
         </header>
         <main>
@@ -53,7 +54,7 @@
             <div class="back">    
             </div>
         </main>
-        <footer>
+        <footer id="footer">
             <div class="footinformations">
                 <p>Politica de Cookies</p>
                 <p>Politica de Privacidade</p>
