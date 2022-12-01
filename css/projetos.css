@@ -3,14 +3,18 @@ main{
     width: 100%;
     height: 200vh;
     min-width: 650px;
+    transition: 1s;
 }
+body.close main{
+    background-color: #94b6ff;
+ }
 .square3{
     width: 25px;
     height: 25px;
     background-color: #0050ff;
     display: flex;
     margin-top: 5%;
-   
+    transition: 1s;
 }
 .containersquare{
     align-items: center;
@@ -21,6 +25,7 @@ main{
 .containersquare h3{
     margin-top: 5%;
     font-size: 40px;
+    margin-left: 10px;
 }
 .projetoP{
     display: flex;

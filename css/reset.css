@@ -6,6 +6,43 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
  }
+ body.close header .square{
+   background-color: #d9dce2;
+}
+body.close main .resume:hover{
+   background-color:rgba(3, 3, 3, 0.3)
+}
+body.close main .projectsbtn:hover{
+   background-color:rgba(57, 107, 245, 0.8)
+}
+body.close header .menu a:hover{
+   color: #b8b8b8;
+}
+body.close main .square2{
+   background-color: #d9dce2;
+}
+
+body.close main .bttdownload{
+   background-color:#d9dce2 ;
+   color: black;
+}
+body.close main .bttdownload:hover{
+   background-color:rgba(0, 0, 0, 0.2);
+   color: black;
+}
+body.close main .square3{
+   background-color: #d9dce2;
+}
+body.close main .square4{
+   background-color: #d9dce2;
+}
+body.close main .inputsEAM button{
+   background-color: #d9dce2;
+   color: black;
+}
+body.close main .inputsEAM button:hover{
+   background-color:rgba(0, 0, 0, 0.3);
+}
 
 /* Header for all pages*/
  header{
@@ -70,3 +107,28 @@
  .socialsfoot p {
     margin-left: 16px;
  }
+
+
+ /*Media Queries 550px*/
+@media all and (max-width:550px){
+   .footer{
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    
+   }
+   .footsocials{
+      display: flex;
+      padding: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .socialsfoot p {
+      margin-left: 0px;
+   }
+   .footsocials>div{
+      margin-left: 0px
+   }
+
+}

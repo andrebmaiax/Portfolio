@@ -1,8 +1,12 @@
 /*Main*/
 main{
     background-color: #e3d7cc;
-    height: 280vh
+    height: 280vh;
+    transition: 1s;
 }
+body.close main{
+    background-color: #94b6ff;
+ }
 
 /* Header Curriculo*/
 .initial-curriculo{
@@ -17,7 +21,9 @@ main{
     height: 20px;
     background-color: #0050ff;
     margin-right: 5px;
+    transition: 1s;
 }
+
 .textbutton{
     display: flex;
     justify-content: center;
@@ -40,10 +46,10 @@ main{
     border: none;
     padding: 10px;
     color: white;
+    transition: 1s;
 }
-.bttdownload:hover{
-    background-color:rgba(0, 67, 253, 0.4)
-}
+
+
 
 /*Curriculo/Formaçao*/
 .experience{

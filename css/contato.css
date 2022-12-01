@@ -3,6 +3,9 @@ main{
     height: 150vh;
     background-color: #e3d7cc;
 }
+body.close main{
+    background-color: #94b6ff;
+ }
 /*Titulo h3*/
 .contatosquarh3 h3{
     font-weight: 700;
@@ -13,6 +16,7 @@ main{
     width: 30px;
     height: 30px;
     background-color: #0050ff;
+    transition: 1s;
 }
 .contatosquarh3{
     display: flex;
@@ -87,9 +91,6 @@ main{
 }
 textarea{
     margin-top: 10px;
-   
-  
-   
     width: 100%;
     box-sizing: border-box;
 }
