@@ -3,18 +3,18 @@
 
 
 /*Main*/
-/*Script class (body.close)*/
-body.close main .AboutI{
+/*Script class (body.mode)*/
+body.mode main .AboutI{
    background-color: #efeff0;
 }
-body.close main .back{
+body.mode main .back{
    background-color: #94b6ff;
 }
-body.close main .resume{
+body.mode main .resume{
    background-color: #d9dce2;
    color: rgb(15, 15, 15);
 }
-body.close main .projectsbtn{
+body.mode main .projectsbtn{
    background-color: #94b6ff;
    color: white;
 }
@@ -111,7 +111,6 @@ body.close main .projectsbtn{
    border: none;
 }
 .buttons{
-  
    margin-left: 10%;
    width: 100%;
 }
@@ -131,15 +130,12 @@ body.close main .projectsbtn{
 }
 
 @media all and (max-width:550px){
-
-   
    .card{
       display: grid;
       width: 60%;
       grid-template-columns: 1fr 1fr ;
-     
       margin: 0 auto;
-      height: 39rem;
+      height: 39rem;  
    }
    .Iam{
       width: 50%;
@@ -151,14 +147,24 @@ body.close main .projectsbtn{
    .texts{
       grid-row: 2;
       height: 500px;
+   }
+}
+@media all and (max-width:900px){
+   .card{
+      display: grid;
+      width: 60%;
+      grid-template-columns: 1fr 1fr ;
+      height: 39rem;
+   }
+   .texts{
+      grid-row: 2;
+      height: 500px;
       width: auto;
-      
    }
    .back{
-      height: 150vh;
+      height: 120vh;
       background-color: #e3d7cc;
       margin-top: -36rem;
       width: 35%;
-   
    }
 }

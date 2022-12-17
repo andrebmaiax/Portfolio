@@ -1,10 +1,11 @@
 const body=document.querySelector("body"),
-      square=body.querySelector(".square")
+      switchbutton=body.querySelector(".toggle-switch")
     
-      square.addEventListener("click",()=>{
-        body.classList.toggle("close")
+      switchbutton.addEventListener("click",()=>{
+        body.classList.toggle("mode")
 
       });
+
     function redirecionarC(){
       window.location.href="../pages/curriculo.html"
     };

@@ -3,7 +3,7 @@ main{
     height: 150vh;
     background-color: #e3d7cc;
 }
-body.close main{
+body.mode main{
     background-color: #94b6ff;
  }
 /*Titulo h3*/
@@ -28,7 +28,7 @@ body.close main{
 
 /*Formulario*/
 .formcontact{
-    width: 40%;
+    width: 55%;
     height: 94vh;
     background-color: white;
     margin: 0 auto;
@@ -93,4 +93,27 @@ textarea{
     margin-top: 10px;
     width: 100%;
     box-sizing: border-box;
+}
+
+@media all and (max-width:1300px){
+    .formcontact{
+        width: 70%; 
+    }
+    .inputsEAM button{
+        width: 18%;
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+@media all and (max-width:900px){
+    .formcontact{
+        width: 90%;
+        height: 90vh;
+    }
+    .inputsEAM button{
+        width: 20%;
+        border-radius: 18px;
+        padding: 6px;
+        font-size: 12px;
+    }
 }

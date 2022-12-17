@@ -5,7 +5,7 @@ main{
     min-width: 650px;
     transition: 1s;
 }
-body.close main{
+body.mode main{
     background-color: #94b6ff;
  }
 .square3{
@@ -42,7 +42,7 @@ body.close main{
     margin: 0 auto;
     height: 43vh;
     margin-top: 5%;
-    min-width: 500px;
+    
 }
 .textsproj{
     min-width: 300px
@@ -62,5 +62,45 @@ body.close main{
 }
 .screenproj{
     display: flex;
+
+}
+@media all and (max-width:800px){
+    .containersquare h3{
+        margin-top: 5%;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .projetoP{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center; 
+    }
+    .projects {
+        min-width: none!important;
+        height: 50vh;
+        width: 100%
+    }
+    .screenproj img{
+        display: none;
+    }
+    .textsproj p{
+        margin: 5%;
+        width: 60%;
+    }
+    .containersquare{
+        justify-content: left;  
+    }
+    .containersquare p{
+        justify-content: left;
+    }
+    .projetoP{
+        display: flex;
+        justify-content: left;
+        width: 60%;
+        text-align: left;
+        margin-left: 5%;   
+    }
 
 }

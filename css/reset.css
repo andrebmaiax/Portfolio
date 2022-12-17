@@ -6,42 +6,50 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
  }
- body.close header .square{
-   background-color: #d9dce2;
-}
-body.close main .resume:hover{
+ 
+body.mode main .resume:hover{
    background-color:rgba(3, 3, 3, 0.3)
 }
-body.close main .projectsbtn:hover{
+body.mode main .projectsbtn:hover{
    background-color:rgba(57, 107, 245, 0.8)
 }
-body.close header .menu a:hover{
+body.mode header .menu a:hover{
    color: #b8b8b8;
 }
-body.close main .square2{
+body.mode main .square2{
    background-color: #d9dce2;
 }
 
-body.close main .bttdownload{
+body.mode main .bttdownload{
    background-color:#d9dce2 ;
    color: black;
 }
-body.close main .bttdownload:hover{
+body.mode main .bttdownload:hover{
    background-color:rgba(0, 0, 0, 0.2);
    color: black;
 }
-body.close main .square3{
+body.mode main .square3{
    background-color: #d9dce2;
 }
-body.close main .square4{
+body.mode main .square4{
    background-color: #d9dce2;
 }
-body.close main .inputsEAM button{
+body.mode main .inputsEAM button{
    background-color: #d9dce2;
    color: black;
 }
-body.close main .inputsEAM button:hover{
+body.mode main .inputsEAM button:hover{
    background-color:rgba(0, 0, 0, 0.3);
+}
+
+body.mode .toggle-switch .switch{
+   background-color: #e3d7cc;
+}
+body.mode .switch{
+   left: 16px;
+}
+body.mode .toggle-switch{
+   background-color:#0050ff ;
 }
 
 /* Header for all pages*/
@@ -58,17 +66,13 @@ body.close main .inputsEAM button:hover{
    align-items: center;
    margin-left:2%;
  }
+ .Initial h2{
+   margin-left: 10px;
+ }
  .menu{
     display: flex;
     margin-right:3%;
  }
-.square{
-   width: 20px;
-   height: 20px;
-   background: #0050ff;
-   transition: 1s;
-   cursor: pointer;
-}
  .menu a{
     padding: 10px;
     font-size: 20px;
@@ -79,6 +83,33 @@ body.close main .inputsEAM button:hover{
  header h2{
    margin-left: 20px;
  }
+ /*Button for change color website*/
+ .toggle-switch{
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #b6b6b6;
+   color: white;
+   border-radius: 50%;
+   width: 35px;
+   height: 15px;
+   cursor: pointer;
+   border-radius: 6px;
+   transition: 0.5s;
+   top: 1%;
+   margin-left: 1%;
+}
+.toggle-switch .switch{
+   left: -16px;
+   position: relative;
+   background-color: #0050ff;
+   height: 15px;
+   width: 15px;
+   border-radius: 25px;
+   border-radius: 50%;
+   transition: 0.5s;
+}
  /*Footer for all pages*/
  footer{
     display: flex;
@@ -111,11 +142,13 @@ body.close main .inputsEAM button:hover{
 
  /*Media Queries 550px*/
 @media all and (max-width:550px){
+   header .Initial h2{
+      margin-left: 3px;
+      }
    .footer{
       display: flex;
       justify-content: center;
       padding: 0;
-    
    }
    .footsocials{
       display: flex;
